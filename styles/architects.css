@@ -10,8 +10,10 @@
 
 
 /* shared style */
+
 .display-flex {
     display: flex;
+    padding: 0 30px;
 }
 
 .bg-color01 {
@@ -33,6 +35,16 @@
 
 .text-dark-gray03 {
     color: rgb(114, 114, 114);
+}
+
+.btn-primary{
+    background-color:rgb(255, 144, 14);
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
 }
 
 /* navbar style */
@@ -58,3 +70,23 @@
 }
 
 /* header style */
+
+.brand{
+    font-weight: 3rem;
+    font-weight: 700;
+
+}
+.banner-content{
+    max-width: 850px;
+   margin: 0 auto;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.img-content{
+    width: 100%;
+    
+}
